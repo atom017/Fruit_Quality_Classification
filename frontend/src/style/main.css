@@ -1,0 +1,112 @@
+.app-title{
+    text-align: center;
+    color:#fff;
+    margin-bottom: 5px;
+}
+
+.app-info{
+  margin:0;
+  
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.main{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center {
+    
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width:40%;
+    padding:1.5rem;
+    border-radius: 10px;
+    background:#fff;
+    box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
+                3px 3px 7px rgba(94, 104, 121, 0.377);
+    
+  }
+
+  .form-input {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+   
+  }
+  #image-input{
+    display:none;
+  }
+
+  .form-input label {
+    margin-bottom: 5px;
+    cursor:pointer;
+    background-color: #29BAEF;
+    text-align:center;
+    padding:7px 15px 7px 15px;
+    
+    color:#fff;
+    font-size:16px;
+    font-family:”Open Sans”,sans-serif;
+    transition: all 0.25s ease;
+    border-radius:5px;
+    
+  }
+
+  .form-input label:hover{
+    background-color: #fff;
+    color:#29BAEF;
+    border:1px solid #29BAEF;
+  }
+
+  .submit-btn{
+     margin-top:15px;
+     font-weight: bold;
+    
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius:40px;
+    background: #1ECD97;
+    border: 2px solid #1ECD97;
+    color:#fff;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 5px 9px 10px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 9px 10px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 9px 10px 3px rgba(0,0,0,0.75);
+  }
+
+  .submit-btn:hover{
+    color:#1ECD97;
+    background: #fff;
+    box-shadow: 1px 2px ;
+  }
+
+  .output-container{
+    text-align: center;
+    
+  }
+
+  .output-container span{
+    margin-top: 5px;
+    margin-right: 5px;
+    color:#022d20;
+  }
+
+  .output-container h2{
+    display: inline-block;
+    color: #efc129;
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .center{
+      width: 70%;
+    }
+  }
