@@ -45,7 +45,7 @@ run app :
 $ npm start
 ```
 
-###Contributors
+## Contributors
 
 - **[Htwe Eaint Phyu](https://github.com/htweeaintphyu99)** 
 - **[Ei Kyi Phyu Khin](https://github.com/EiKyiPhyuKhin)** 
