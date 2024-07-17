@@ -1,5 +1,11 @@
 ## Installation Backend
 
+Go to backend directory:
+
+```
+$ cd backend
+```
+
 Install with pip:
 
 ```
@@ -22,6 +28,11 @@ http://localhost:5000/api/upload
 
 ## Frontend
 
+Go to frontend directory:
+
+```
+$ cd frontend
+```
 Installation :
 
 ```
@@ -33,3 +44,9 @@ run app :
 ```
 $ npm start
 ```
+
+###Contributors
+
+- **[Htwe Eaint Phyu](https://github.com/htweeaintphyu99)** 
+- **[Ei Kyi Phyu Khin](https://github.com/EiKyiPhyuKhin)** 
+- **[Aye Thu Zar Tun](https://github.com/atzt61127)** 
